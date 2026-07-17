@@ -1,0 +1,5 @@
+interface:
+  display_name: "资料检查"
+  short_description: "检查并直接修复 Markdown 资料中的低级错误，同时列出待用户确认的问题"
+  default_prompt: "使用 $check-docs 检查这些 Markdown 资料，直接修复明确的低级错误，并列出需要我决定的问题。"
+
