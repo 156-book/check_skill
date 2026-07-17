@@ -1,4 +1,4 @@
 interface:
-  display_name: "两轮逐问题交互检查"
-  short_description: "两轮流程：第一轮逐问题交互，第二轮统一确认计划后再写文件"
-  default_prompt: "使用 $check-docs 只读检查这些 Markdown 资料并严格执行两轮流程；第一轮对每个问题分别调用一次原生交互并显示文件路径和行号，第二轮汇总修改计划供我确认后再写文件。"
+  display_name: "逐问题资料检查与分类统计"
+  short_description: "两轮逐问题确认修改，保留 Markdown 并按文件和类型统计修复数"
+  default_prompt: "使用 $check-docs 按文件和原文顺序只读检查这些 Markdown 资料；每个问题显示路径和行号并逐项交互，第二轮确认后仅修改获批错误、保留原格式，并按文件和问题类型汇总修复数量。"
